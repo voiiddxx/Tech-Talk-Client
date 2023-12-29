@@ -1,11 +1,19 @@
 
 import './App.css';
-
+import { Route, BrowserRouter as  Router, Routes } from 'react-router-dom'
+import Splash from './start/Splash';
+import Create from './auth/Create';
 function App() {
   return (
 
     <>
-    <h1>This is first page of chat might complete it in this week</h1>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Splash/>}/>
+        <Route path='/create' element={<Create/>}/>
+       
+      </Routes>
+    </Router>
     </>
   );
 }
