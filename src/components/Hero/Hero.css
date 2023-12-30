@@ -1,0 +1,93 @@
+.hero-main{
+    display: flex;
+}
+.hero-left{
+    height: 100vh;
+    width: 20%;
+    background-color: white;
+    border-right: 0.2px solid rgb(205, 205, 205);
+}
+
+.hero-left h3{
+    margin-left: 15px;
+    font-size: 13px;
+    padding-top: 30px;
+    color: rgb(52, 52, 52);
+}
+
+.bor{
+    margin-top: 30px;
+    border-top: 0.3px solid rgb(205, 205, 205);
+    
+}
+
+.card{
+    height: 80px;
+    width: 100%;
+    border-bottom: 0.3px solid rgb(205, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 15px;
+    gap: 15px;
+}
+
+.card img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-text h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(40, 40, 40);
+}
+.card-text p{
+    font-weight: 300;
+    font-size: 10px;
+    color: rgb(82, 82, 82);
+}
+
+.hero-mid{
+    height: 93vh;
+    width: 50%;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bottom{
+    height: 80px;
+    width: 100%;
+    border-top:  0.3px solid rgb(181, 181, 181);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.bottom input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    height: 100px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.chat-button{
+    margin-right: 50px;
+    height: 45px;
+    width: 100px;
+    background-color: rgb(66, 66, 255);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-button p{
+    color: white;
+}
