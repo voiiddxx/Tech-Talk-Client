@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-left h1{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nav-mid{
+    display: flex;
+    gap: 20px;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logout{
+    height: 30px;
+    width: 70px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logout p{
+    font-size: 10px;
+    color: blue;
+}
+.nav-right img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
