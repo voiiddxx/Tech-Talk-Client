@@ -78,7 +78,7 @@
 }
 
 .chat-button{
-    margin-right: 50px;
+    margin-right: 51px;
     height: 45px;
     width: 100px;
     background-color: rgb(66, 66, 255);
@@ -86,6 +86,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+
 }
 
 .chat-button p{
