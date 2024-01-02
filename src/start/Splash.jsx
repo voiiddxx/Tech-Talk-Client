@@ -5,9 +5,19 @@ import { useNavigate } from 'react-router'
 const Splash = () => {
     const navigate = useNavigate();
     const ChangeScreen = ()=>{
-        setTimeout(() => {
-            navigate("/create")
-        }, 2000);
+
+        const token = localStorage.getItem('x-auth-token');
+        if(token){
+            setTimeout(() => {
+                navigate("/Home")
+            }, 2000);
+        }
+        else{
+            setTimeout(() => {
+                navigate("/create")
+            }, 2000);
+        }
+        
     }
 useEffect(()=>{
     ChangeScreen();
